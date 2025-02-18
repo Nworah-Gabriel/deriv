@@ -4,7 +4,14 @@
         "default": {
             "runner": "@nx/workspace/tasks-runners/default",
             "options": {
-                "cacheableOperations": ["build", "test", "test:eslint", "package", "prepare", "build:travis"]
+                "cacheableOperations": [
+                    "build",
+                    "test",
+                    "test:eslint",
+                    "package",
+                    "prepare",
+                    "build:travis"
+                ]
             }
         }
     },
@@ -35,5 +42,6 @@
         "@nx/js": {
             "analyzeSourceFiles": false
         }
-    }
+    },
+    "nxCloudId": "67b49f9e6daf79dccebf6913"
 }
